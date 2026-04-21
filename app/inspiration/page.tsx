@@ -18,14 +18,6 @@ export const metadata: Metadata = {
 export default async function InspirationPage() {
   const items = [
     {
-      title: "James",
-      description: "Designer I look up to",
-      href: "https://x.com/jamesm",
-      src: (
-        <img src="/inspiration/james.jpg" alt="james" className="size-full" />
-      ),
-    },
-    {
       title: "Klack",
       description: "Neat product and website",
       href: "https://tryklack.com",
