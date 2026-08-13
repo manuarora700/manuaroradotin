@@ -49,6 +49,20 @@ const workItems = [
       "bg-linear-to-b from-orange-400 to-orange-600 ring-offset-orange-500",
   },
   {
+    href: "https://ai.aceternity.com",
+    title: "Acebuilder",
+    description: "AI landing page builder with exportable code.",
+    icon: (
+      <img
+        src="/acebuilder-light.png"
+        alt=""
+        className="size-4 invert drop-shadow-xl drop-shadow-black/40"
+      />
+    ),
+    boxClassName:
+      "bg-linear-to-b from-emerald-400 to-emerald-600 ring-offset-emerald-500",
+  },
+  {
     href: "https://youtube.com/@manuarora",
     title: "YouTube",
     description: "I talk about design engineering and SaaS.",

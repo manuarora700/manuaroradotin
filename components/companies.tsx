@@ -6,6 +6,7 @@ import {
   HostingerIcon,
   NeonIcon,
   PosthogIcon,
+  ReplitIcon,
   StrapiIcon,
 } from "./icons/general";
 import { Box } from "./box";
@@ -20,6 +21,15 @@ export const Companies = () => {
       ),
       boxClassName:
         "bg-linear-to-b from-neutral-400 to-neutral-600 ring-offset-neutral-500",
+    },
+    {
+      title: "Replit",
+      description: "AI-powered platform to build and ship software.",
+      skeleton: (
+        <ReplitIcon className="size-4 text-white drop-shadow-xl drop-shadow-black/40" />
+      ),
+      boxClassName:
+        "bg-linear-to-b from-orange-400 to-orange-600 ring-offset-orange-500",
     },
     {
       title: "Neon",
