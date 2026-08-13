@@ -19,9 +19,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       url: `${SITE_URL}/blog`,
     },
     {
-      url: `${SITE_URL}/tweets`,
-    },
-    {
       url: `${SITE_URL}/inspiration`,
     },
     {

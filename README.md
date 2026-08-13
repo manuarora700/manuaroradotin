@@ -5,7 +5,6 @@ My personal website and blog. Built with Next.js, Tailwind CSS v4, and MDX.
 ## Overview
 
 - `app/blog/*` - Blog posts rendered using MDX
-- `app/tweets` - Curated [tweets](https://manuarora.in/tweets)
 - `app/inspiration` - Design [inspiration](https://manuarora.in/inspiration)
 - `app/sponsor` - [Sponsor](https://manuarora.in/sponsor) page
 - `components/*` - Reusable UI components
