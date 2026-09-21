@@ -2,7 +2,7 @@ export const CursorIcon = (props: React.SVGProps<SVGSVGElement>) => {
   return (
     <svg
       fill="none"
-      viewBox="0 0 471 491"
+      viewBox="13.7 27.375 471 491"
       xmlns="http://www.w3.org/2000/svg"
       overflow="visible"
       {...props}
