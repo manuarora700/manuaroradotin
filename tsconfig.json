@@ -16,28 +16,27 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
-    "baseUrl": ".",
     "paths": {
       "@/components/*": [
-        "components/*"
+        "./components/*"
       ],
       "@/data/*": [
-        "data/*"
+        "./data/*"
       ],
       "@/layouts/*": [
-        "layouts/*"
+        "./layouts/*"
       ],
       "@/lib/*": [
-        "lib/*"
+        "./lib/*"
       ],
       "@/styles/*": [
-        "styles/*"
+        "./styles/*"
       ],
       "@/ui/*": [
-        "ui/*"
+        "./ui/*"
       ],
       "@/constants/*": [
-        "constants/*"
+        "./constants/*"
       ]
     },
     "types": [
