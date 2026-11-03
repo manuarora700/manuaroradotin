@@ -11,6 +11,6 @@ export default defineConfig({
     tailwindcss(),
     tanstackStart({ srcDirectory: "app" }),
     react(),
-    nitro(),
+    nitro({ serverDir: "./server" }),
   ],
 });

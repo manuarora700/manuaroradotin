@@ -23,6 +23,8 @@ const analyticsScriptUrl = import.meta.env.VITE_ANALYTICS_SCRIPT_URL;
 
 const themeScript = `(function(){try{var d=document.documentElement,m=window.matchMedia("(prefers-color-scheme: dark)");function a(){var t=localStorage.getItem("theme")||"system",r=t==="system"?(m.matches?"dark":"light"):t;d.classList.remove("light","dark");d.classList.add(r);d.style.colorScheme=r}a();m.addEventListener("change",a)}catch(e){}})()`;
 
+const visitorsScript = String.raw`(function(w,d){var h=null;try{var l=w.localStorage,p=JSON.parse(l.getItem("lv:vp:"+"lv_pub_e6jcz82k22etz57z9po3at9r")||"[]"),q=(location.pathname||"/").replace(/\/{2,}/g,"/").replace(/(.)\/+$/,"$1");if(!l.getItem("lv:seen:"+"lv_pub_e6jcz82k22etz57z9po3at9r")||p.indexOf(q)>=0){h=d.createElement("style");h.textContent="html{opacity:0!important}";d.head.appendChild(h)}l.setItem("lv:seen:"+"lv_pub_e6jcz82k22etz57z9po3at9r","1")}catch(e){}w.__lvReveal=function(){if(h&&h.parentNode)h.parentNode.removeChild(h);h=null};setTimeout(function(){if(h)w.__lvLate=1;w.__lvReveal()},1000);var s=d.createElement("script");s.src="https://lettervisit.com/v.js?k=lv_pub_e6jcz82k22etz57z9po3at9r";s.async=true;s.setAttribute("data-key","lv_pub_e6jcz82k22etz57z9po3at9r");s.onerror=w.__lvReveal;d.head.appendChild(s)})(window,document)`;
+
 export const Route = createRootRoute({
   head: () => ({
     meta: [
@@ -46,6 +48,7 @@ export const Route = createRootRoute({
     ],
     scripts: [
       { children: themeScript },
+      { children: visitorsScript },
       ...(analyticsDomain && analyticsScriptUrl
         ? [
             {
