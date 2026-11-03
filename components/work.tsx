@@ -144,7 +144,7 @@ export const Work = () => {
 
   return (
     <section>
-      <Subheading className="text-xl font-bold">Things I do</Subheading>
+      <Subheading>Things I do</Subheading>
       <ul className="mt-4 flex flex-col gap-2 md:gap-1">
         {workItems.map((item) => (
           <WorkRow
@@ -185,7 +185,7 @@ const WorkRow = ({
       >
         <Box className={cn("shrink-0", item.boxClassName)}>{item.icon}</Box>
         <span className="flex min-w-0 flex-1 flex-col items-start gap-0.5 md:flex-row md:items-center md:gap-2">
-          <span className="text-foreground group-hover:text-primary inline-flex shrink-0 items-center rounded-full border border-black/10 bg-white px-2.5 py-0.5 text-sm leading-5 font-medium tracking-tight shadow-xs shadow-black/5 transition-colors duration-150 group-hover:border-black/15 dark:border-white/10 dark:bg-white/5 dark:group-hover:border-white/20">
+          <span className="text-foreground group-hover:text-primary shrink-0 font-medium transition-colors duration-150">
             {item.title}
           </span>
           <span
