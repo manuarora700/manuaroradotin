@@ -31,7 +31,7 @@ export const Footer = () => {
                   target="_blank"
                   rel="me noopener noreferrer"
                   aria-label={`${label}: ${handle}`}
-                  className="text-foreground/60 hover:text-primary flex h-10 items-center gap-1.5 rounded-md px-2.5 text-sm transition-colors duration-150 hover:bg-black/[0.04] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--primary) dark:hover:bg-white/[0.05]"
+                  className="text-foreground/60 hover:text-primary flex h-10 items-center gap-1.5 rounded-md px-2.5 text-sm transition-colors duration-150 hover:bg-black/[0.04] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--primary)"
                 >
                   <Icon aria-hidden className="size-4" stroke={1.5} />
                   {label}

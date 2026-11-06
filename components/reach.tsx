@@ -111,7 +111,7 @@ export const Reach = ({ youtube }: { youtube: YouTubeData | null }) => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={`${tile.title}: ${tile.primary.value} ${tile.primary.label}. ${tile.action}`}
-              className="group flex h-full flex-col rounded-xl bg-white p-4 shadow-[0_0_0_1px_rgb(0_0_0/0.06),0_1px_2px_rgb(0_0_0/0.04),0_4px_12px_-4px_rgb(0_0_0/0.08)] transition-[box-shadow,translate] duration-200 ease-out hover:-translate-y-0.5 hover:shadow-[0_0_0_1px_rgb(0_0_0/0.08),0_2px_4px_rgb(0_0_0/0.05),0_12px_24px_-8px_rgb(0_0_0/0.14)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--primary) dark:bg-neutral-900 dark:shadow-[0_0_0_1px_rgb(255_255_255/0.08)]"
+              className="group flex h-full flex-col rounded-xl bg-white p-4 shadow-[0_0_0_1px_rgb(0_0_0/0.06),0_1px_2px_rgb(0_0_0/0.04),0_4px_12px_-4px_rgb(0_0_0/0.08)] transition-[box-shadow,translate] duration-200 ease-out hover:-translate-y-0.5 hover:shadow-[0_0_0_1px_rgb(0_0_0/0.08),0_2px_4px_rgb(0_0_0/0.05),0_12px_24px_-8px_rgb(0_0_0/0.14)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--primary)"
             >
               <div className="flex items-center gap-2.5">
                 <Box className={cn("shrink-0", tile.boxClassName)}>
@@ -140,7 +140,7 @@ export const Reach = ({ youtube }: { youtube: YouTubeData | null }) => {
                 </span>
               </div>
 
-              <div className="text-foreground/60 mt-auto flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-dashed border-black/10 pt-3 text-xs dark:border-white/10">
+              <div className="text-foreground/60 mt-auto flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-dashed border-black/10 pt-3 text-xs">
                 {tile.secondary.map((metric) => (
                   <span key={metric.label} className="whitespace-nowrap">
                     <span className="text-primary font-medium tabular-nums">

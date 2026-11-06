@@ -233,7 +233,7 @@ export const Settings = () => {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.15, ease: "easeOut" }}
             className={cn(
-              "fixed top-4 right-4 w-56 rounded-xl border border-neutral-200 bg-linear-to-b p-4 shadow-sm ring-1 ring-white/20 ring-offset-2 ring-inset dark:border-neutral-700",
+              "fixed top-4 right-4 w-56 rounded-xl border border-neutral-200 bg-linear-to-b p-4 shadow-sm ring-1 ring-white/20 ring-offset-2 ring-inset",
               colorConfig.gradientFrom,
               colorConfig.gradientTo,
               colorConfig.ringOffset,

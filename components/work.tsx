@@ -181,7 +181,7 @@ const WorkRow = ({
         aria-expanded={open}
         aria-controls={`${id}-panel`}
         onClick={onToggle}
-        className="group -mx-2 flex w-[calc(100%+1rem)] cursor-pointer items-center gap-4 rounded-lg px-2 py-2 text-left transition-colors duration-150 hover:bg-black/[0.03] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--primary) dark:hover:bg-white/[0.04]"
+        className="group -mx-2 flex w-[calc(100%+1rem)] cursor-pointer items-center gap-4 rounded-lg px-2 py-2 text-left transition-colors duration-150 hover:bg-black/[0.03] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--primary)"
       >
         <Box className={cn("shrink-0", item.boxClassName)}>{item.icon}</Box>
         <span className="flex min-w-0 flex-1 flex-col items-start gap-0.5 md:flex-row md:items-center md:gap-2">

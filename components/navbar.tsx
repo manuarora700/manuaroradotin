@@ -28,7 +28,7 @@ export const Navbar = () => {
           animate="animate"
           exit="exit"
           transition={SPRING_CONFIG}
-          className="rounded-md bg-white shadow-md dark:bg-neutral-800"
+          className="rounded-md bg-white shadow-md"
         >
           <img
             src="https://assets.aceternity.com/avatars/manu.webp"

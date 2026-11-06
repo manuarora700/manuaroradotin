@@ -14,7 +14,7 @@ export default function HighlightBox({ children }) {
         {children}
       </span>
       <span
-        className="absolute right-0 bottom-0 left-0 mt-10 inline-block h-2 bg-green-200 dark:bg-green-600"
+        className="absolute right-0 bottom-0 left-0 mt-10 inline-block h-2 bg-green-200"
         style={{ zIndex: -10 }}
       ></span>
     </span>
